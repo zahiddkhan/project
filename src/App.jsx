@@ -20,10 +20,6 @@ function App() {
        <div className="mian-image">
         <img src={logo} alt="img" />
        </div>
-
-       <div className='next'>
-        <h3>this next</h3>
-       </div>
     </div>
        
     </>

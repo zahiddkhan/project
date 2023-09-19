@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content{
+  width: 50%;
+}
+.mian-image{
+  width: 50%;
+}

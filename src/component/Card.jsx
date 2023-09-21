@@ -1,12 +1,12 @@
 import React from 'react'
 import { BsFillBagFill } from "react-icons/bs";
-import data from "../assets/Dp/Dp"
 
-const Card = () => {
+
+const Card = ({img,title,star,prevPrice,reviews,newPrice}) => {
   return (
-    <section className="cards" >
-{
-      data.map(({img,title,star,prevPrice,reviews,newPrice}) =>(
+  
+
+    
         <section className="card" >
         <img src={img} alt={title} className="card-img" />
         <div className="card-details">
@@ -25,10 +25,8 @@ const Card = () => {
           </section>
         </div>
       </section>
-      ))
-    }
+    
 
-  </section>
   )
 }
 

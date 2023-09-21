@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import "./Nav.css";
 
-const Nav = () => {
+const Nav = ({ handleInputChange, query }) => {
   return (
     <>
       <nav>
@@ -14,6 +14,8 @@ const Nav = () => {
           <input
             type="text"
             className="search-input"
+            onChange={handleInputChange}
+            value={query}
             placeholder="Enter your shoes"
           />
         </div>
